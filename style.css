@@ -268,10 +268,23 @@ select {
   margin-bottom: 3rem;
 }
 
+.space {
+  height: 0px;
+  width: 100vw;
+  position: relative;
+  padding-bottom: 60rem;
+}
+
 .about {
-  border-radius: 1rem;
-  padding-inline: 1.5rem;
+  max-width: 1440px;
+  border-radius: 1rem;  
   margin-top: 8rem;
+  position: absolute;
+  top: 48%;
+}
+
+.about__wrapper {    
+  padding-inline: 1.5rem;
 }
 
 .about__content {
@@ -299,6 +312,7 @@ select {
 .about__title {
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .about__description {
@@ -308,16 +322,13 @@ select {
 }
 
 .footer {
-  height: 45vh;
+  max-width: 1440px;
   width: 100%;
-  padding-block: 7rem;  
-  position: absolute;
-  top: 240%;
-  z-index: -1;
+  padding-block: 7rem;
 }
 
 .footer__container {
-  height: 100%;
+  gap: 2rem;
 }
 
 .socials {
@@ -382,10 +393,16 @@ select {
     flex-direction: row;  
   }
 
+  .space {
+    padding-bottom: 20rem;
+  }
+
   .about {
     width: 90%;
     margin-inline: auto;
-    z-index: -2;
+    left: 50%;
+    translate: -50% 0;
+    top: 45%;
   }
 
   .about__img {
@@ -409,9 +426,7 @@ select {
   }
 
   .footer {
-    height: 75vh;
-    top: 120%;
-    z-index: -3;
+    padding-top: 40rem;
   }
 
   .footer__container {
@@ -466,24 +481,42 @@ select {
   }
 
   .about {
-    min-height: 53vh;
     width: 80%;
-    padding-inline: 5rem;    
-    top: 15%;
+    padding-inline: 5rem;            
+    position: absolute;
+    top: 55%;
+  }
+
+  .about__wrapper {
+    position: relative;
+  }
+
+  .about__container {    
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
   }
 
   .about__content {
-    height: 53vh;
-    margin-block: auto;
     flex-direction: row;
     justify-content: space-between;
     translate: 0 0;
-  }
+  }  
+
+  /* .about__container:first-child {
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+  } */
 
   .about__img {
-    width: 38%;
     position: absolute;
-    top: -7.5%;
+    bottom: 0;
+  }
+
+  .about__blur {
+    width: 50%;
+    bottom: 0;
+    position: absolute;
   }
 
   .about__pattern {
@@ -499,6 +532,8 @@ select {
   }
 
   .about__description {
+    
+    max-width: 39ch;
     font-size: 1.25rem;
     line-height: 2.1875rem;
     text-align: start;
@@ -511,5 +546,10 @@ select {
     padding-inline: 3rem;
   }
   
-  
+  .footer {
+    padding-top: 25rem;
+    padding-inline: 6rem;
+    top: 85%;
+    margin-inline: auto;    
+  }
 }

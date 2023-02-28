@@ -8,7 +8,7 @@
 
     <title>Frontend Mentor | Suite landing page</title>
   </head>
-  <body>
+  <body class="relative">
     <header class="header text-primary-100">
       <div class="header__container flex justify-between items-center">
         <div class="header__logo">
@@ -74,41 +74,43 @@
         </div>
       </section>
     </header>
-
+    <div class="space"></div>
     <main>
-      <section class="about bg-primary-100 text-primary-200 relative">
-        <div class="about__content flex flex-col items-center">
-          <div class="about__container flex flex-col items-center">
-            <picture class="about__img">
-              <source
-                width="100%"
-                srcset="image-jeremy-large@2x.png"
-                media="(min-width:1280px)"
+      <section class="about bg-primary-100 text-primary-200">
+        <div class="about__wrapper">
+          <div class="about__content flex flex-col items-center">
+            <div class="about__container flex flex-col items-center">
+              <picture class="about__img">
+                <source
+                  width="100%"
+                  srcset="image-jeremy-large.png"
+                  media="(min-width:769px)"
+                />
+                <img src="image-jeremy-small.png" alt="" />
+              </picture>
+              <img src="pattern-blur.svg" alt="" class="about__blur" />
+            </div>
+            <div>
+              <img
+                src="pattern-curved-line-2.svg"
+                alt=""
+                class="about__pattern"
               />
-              <img src="image-jeremy-small.png" alt="" />
-            </picture>
-            <img src="pattern-blur.svg" alt="" class="about__blur" />
-          </div>
-          <div>
-            <img
-              src="pattern-curved-line-2.svg"
-              alt=""
-              class="about__pattern"
-            />
-          </div>
-          <div class="about__container flex flex-col">
-            <span class="about__title text-center">
-              It just <span class="font-bold">works.</span>
-            </span>
-            <p class="about__description text-center">
-              “I really like how it is an all-in-one solution that handle many
-              of the tasks that you would normally need separate tools to do the
-              same job. This thing is a miracle worker.”
-            </p>
-            <span class="about__name text-center flex flex-col text-uppercase"
-              ><span class="font-bold">Jeremy Robinson</span>
-              <span class="font-spacing">CMO, Fylo</span>
-            </span>
+            </div>
+            <div class="about__container flex flex-col">
+              <h1 class="about__title text-center">
+                It just <span class="font-bold">works.</span>
+              </h1>
+              <p class="about__description text-center">
+                “I really like how it is an all-in-one solution that handle many
+                of the tasks that you would normally need separate tools to do
+                the same job. This thing is a miracle worker.”
+              </p>
+              <span class="about__name text-center flex flex-col text-uppercase"
+                ><span class="font-bold">Jeremy Robinson</span>
+                <span class="font-spacing">CMO, Fylo</span>
+              </span>
+            </div>
           </div>
         </div>
       </section>
