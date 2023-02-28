@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <header class="header text-primary-100">
+      <div class="header__container flex justify-between items-center">
+        <div class="header__logo">
+          <img src="logo.svg" alt="suite logo" />
+        </div>
+        <button
+          class="header__button button bg-white text-primary-100 rounded-100 font-bold"
+        >
+          Request Beta Access
+        </button>
+      </div>
+
+      <section class="hero grid">
+        <div class="hero__container">
+          <div class="hero__pattern">
+            <img src="pattern-curved-line-1.svg" alt="" />
+          </div>
+          <span class="hero__title">
+            A <span class="font-bold">super solution</span> for your
+            <span class="font-bold">business.</span>
+          </span>
+
+          <p class="hero__description text-primary-150">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+
+          <button
+            class="hero__button button bg-primary-100 text-white rounded-100 font-bold"
+          >
+            Request Beta Access
+          </button>
+        </div>
+        <div class="hero__container">
+          <picture class="hero__img">
+            <source
+              width="100%"
+              srcset="image-hero-portrait.png"
+              media="(min-width:376px)"
+            />
+            <img width="100%" src="image-hero-landscape.png" alt="" />
+          </picture>
+        </div>
+        <div class="hero__container flex flex-col justify-between items-center">
+          <div class="flex flex-col text-center">
+            <span class="font-bold font-big">2K+</span>
+            <span class="text-primary-150 font-spacing text-uppercase"
+              >Companies</span
+            >
+          </div>
+          <div class="flex flex-col text-center">
+            <span class="font-big font-bold">8</span>
+            <span class="text-primary-150 font-spacing text-uppercase"
+              >Languages</span
+            >
+          </div>
+          <div class="flex flex-col text-center">
+            <span class="font-bold font-big">1.2M</span>
+            <span class="text-primary-150 font-spacing text-uppercase"
+              >Leads</span
+            >
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="about bg-primary-100 text-primary-200 relative">
+        <div class="about__content flex flex-col items-center">
+          <div class="about__container flex flex-col items-center">
+            <picture class="about__img">
+              <source
+                width="100%"
+                srcset="image-jeremy-large@2x.png"
+                media="(min-width:1280px)"
+              />
+              <img src="image-jeremy-small.png" alt="" />
+            </picture>
+            <img src="pattern-blur.svg" alt="" class="about__blur" />
+          </div>
+          <div>
+            <img
+              src="pattern-curved-line-2.svg"
+              alt=""
+              class="about__pattern"
+            />
+          </div>
+          <div class="about__container flex flex-col">
+            <span class="about__title text-center">
+              It just <span class="font-bold">works.</span>
+            </span>
+            <p class="about__description text-center">
+              “I really like how it is an all-in-one solution that handle many
+              of the tasks that you would normally need separate tools to do the
+              same job. This thing is a miracle worker.”
+            </p>
+            <span class="about__name text-center flex flex-col text-uppercase"
+              ><span class="font-bold">Jeremy Robinson</span>
+              <span class="font-spacing">CMO, Fylo</span>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-primary-200">
+      <div class="footer__container flex flex-col justify-between items-center">
+        <div class="footer__logo">
+          <img src="logo.svg" alt="suite logo" />
+        </div>
+        <span class="text-primary-150">Copyright - Suite</span>
+        <div>
+          <ul class="socials flex justify-center items-center" role="list">
+            <li>
+              <a class="social flex items-center justify-center" href="#"
+                ><img src="icon-facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a class="social flex items-center justify-center" href="#"
+                ><img src="icon-twitter.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a class="social flex items-center justify-center" href="#"
+                ><img src="icon-instagram.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
