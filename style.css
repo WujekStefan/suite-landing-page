@@ -502,12 +502,6 @@ select {
     translate: 0 0;
   }  
 
-  /* .about__container:first-child {
-    align-items: start;
-    flex-direction: row;
-    justify-content: start;
-  } */
-
   .about__img {
     position: absolute;
     bottom: 0;

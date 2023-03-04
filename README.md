@@ -1,6 +1,6 @@
-# [Dictionary app with PWA](https://beamish-hotteok-903247.netlify.app/)
+# [Suite website](https://spontaneous-tulumba-fee2e9.netlify.app)
 
-## [Deigned by Frontend Mentor](https://www.frontendmentor.io/challenges/suite-landing-page-tj_eaU-Ra)
+## [Deigned by Frontend Mentor](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X)
 
 ## Table of contents
 
@@ -10,27 +10,27 @@
   - [Features](#features)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Install process](#install-process)
-- [Build process](#build-process)
 
 ## Overview
 
 ### Motivation
 
-My main goal for this project was to practice my html nad css skills.
+Decided to do this project for my position skills practice. I focused on responsive position absolute.
 
 ### Website
 
-[App live demo](https://spontaneous-tulumba-fee2e9.netlify.app)
+https://spontaneous-tulumba-fee2e9.netlify.app
 
 ### Features
 
+- Fully responsive
+
 ## Built with
+
+- HTML
+- CSS
 
 ## What I learned
 
--How to make space for absolute positioning
-
-## Install process
-
-## Build process
+- Positioning with position absolute
+- Css grid usage
